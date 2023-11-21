@@ -6,14 +6,15 @@ import { EventsComponent } from './Events/events/events.component';
 import { EducationsComponent } from './Educations/educations/educations.component';
 import { ArtsArtistsComponent } from './Arts-Artists/arts-artists/arts-artists.component';
 import { AboutUsComponent } from './AboutUs/about-us/about-us.component';
+import { AllComponentsComponent } from './allComponents/all-components/all-components.component';
 
 const routes: Routes = [
-  { path: '', component:AppComponent },
-  { path: 'Exhibtions', component:ExhibtionsComponent},
-  { path:'Events', component:EventsComponent},
-  { path:'Educations', component:EducationsComponent},
-  { path:'ArtsArtists', component:ArtsArtistsComponent},
-  { path:'AboutUs', component :AboutUsComponent}
+  { path: '', component:AllComponentsComponent },
+  { path: 'exhibtions', component:ExhibtionsComponent},
+  { path:'events', component:EventsComponent},
+  { path:'educations', component:EducationsComponent},
+  { path:'artsartists', component:ArtsArtistsComponent},
+  { path:'aboutus', component :AboutUsComponent}
 ];
 
 @NgModule({
@@ -21,4 +22,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [ExhibtionsComponent,EventsComponent,ArtsArtistsComponent,AboutUsComponent]
+// export const routingComponents = [ExhibtionsComponent,EventsComponent,ArtsArtistsComponent,AboutUsComponent]
