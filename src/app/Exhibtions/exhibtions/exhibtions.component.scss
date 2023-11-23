@@ -2,6 +2,9 @@
   position: relative;
 
 }
+.row-oneimg {
+  width:100%
+}
 
 .row-oneimg-colmun {
   color: #141414;
@@ -9,14 +12,11 @@
   font-family: Lexend;
   font-weight: 500;
   word-wrap: break-word;
-  margin-left: 18%;
-
 }
 
 .image-container {
   position: relative;
   display: inline-block;
-
 }
 
 .row-oneimg-colmun button {
@@ -107,6 +107,9 @@ line-height: normal;
   color: #FBFBF4;
   position: absolute;
   top: 70%;
+}
+.container {
+  width: 100%;
 }
 .container-a h1 {
   color:  #141414;
