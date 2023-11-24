@@ -60,7 +60,7 @@
 }
 
 .row-s {
-  padding: 32px 0px;
+  // padding: 32px 0px;
   width: 100%;
   height: 435px;
   background-color: var(--landing-color);
@@ -68,7 +68,7 @@
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
-  position: relative;
+  // position: relative;
   display: inline-table;
 
 }
@@ -80,7 +80,17 @@
   left: 300px;
   position: absolute;
 }
-
+.row-card-img h3 {
+  color: var(--black-100, #141414);
+/* Title */
+text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+/* H3/medium */
+font-family: Lexend;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 .img-contn {
   width: 644px;
   height: 403px;
@@ -91,7 +101,7 @@
 }
 
 .img-cd {
-  width: 100%;
+  width: 85%;
   height: 100%;
   border-radius: 0px 24px 24px 0px;
   display: flex;
@@ -112,6 +122,7 @@
 .column-u {
   position: relative;
   bottom: 300%;
+      padding-top: 15px;
 }
 
 .column-u h4 {
@@ -204,9 +215,9 @@ line-height: normal;
   border: 1px;
   object-fit: cover;
 }
-// .row-oneimg {
-//   // width: 100%;
-// }
+.row-oneimg {
+  padding-top: 40px;
+}
 .row-oneimg-colmun {
   position: relative;
 
@@ -223,6 +234,7 @@ line-height: normal;
 .image-container {
   position: relative;
   display: inline-block;
+  padding-top: 15px;
 
 }
 
@@ -242,6 +254,7 @@ line-height: normal;
 }
 
 .row-oneimg-img {
+  margin-left: 130px;
   width: 1090px;
   height: 390px;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 25.25);
@@ -253,6 +266,7 @@ line-height: normal;
 }
 
 .image-overlay {
+  margin-left: 135px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -266,9 +280,10 @@ line-height: normal;
 .image-overlay p {
   margin: 0;
   font-family: "Lexend";
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 .row-oneimg h3 {
+  margin-left: 135px;
   color: #141414;
 /* Title */
 text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -278,19 +293,23 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+// background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+
 }
 
 .row-oneimg p {
+  // margin-left: 130px;
   font-size: 16px;
   font-weight: 400;
   color: rgba(251, 251, 244, 1);
   width: 838px;
   word-wrap: break-word;
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 
 .row-k{
   width: 100%;
+  padding-top: 40px;
 }
 // .column-k h4 {
 //   position: absolute;
@@ -306,6 +325,7 @@ line-height: normal;
 // }
 
 .row-k-div h3 {
+  margin-left: 60px;
   color: #141414;
   /* Title */
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -318,6 +338,7 @@ line-height: normal;
 }
 
 .row-k-bt {
+  margin-right: 60px;
   color: #DE177C;
   /* Button/medium */
   font-family: Lexend;
@@ -344,6 +365,7 @@ line-height: normal;
 //   border: #DE177C;
 // }
 .img-k {
+  padding-top: 5px;
   width: 310px;
   height: 401px;
   border-radius: 24px;
@@ -364,7 +386,7 @@ line-height: normal;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
-  padding-left: 114px
+  padding-left: 88px
 }
 // .colmun-k {
 //   // width: 100%;
@@ -372,7 +394,7 @@ line-height: normal;
 .colmun-k p {
   position: absolute;
   bottom: 4px;
-  padding-left: 114px;
+  padding-left: 88px;
   color: #FBFBF4;
   /* Body/regular */
   font-family: Lexend;
@@ -405,13 +427,13 @@ line-height: normal;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
-  padding-left: 114px
+  padding-left: 88px
 }
 
 .colmun-n p {
   position: absolute;
   bottom: 4px;
-  padding-left: 114px;
+  padding-left: 88px;
   color: #FBFBF4;
   /* Body/regular */
   font-family: Lexend;
