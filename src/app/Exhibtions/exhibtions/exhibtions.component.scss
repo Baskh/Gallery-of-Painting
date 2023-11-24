@@ -3,7 +3,9 @@
 
 }
 .row-oneimg {
-  width:100%
+  width:100%;
+  padding-left: 140px;
+  margin-top: 35px;
 }
 
 .row-oneimg-colmun {
@@ -86,7 +88,16 @@ line-height: normal;
   text-align: left;
   padding: 32px 0px;
 }
+// .container .row-twoimg {
+//   margin-top: 20px;
+// }
+.box-a {
+  margin-top: 20px;
+}
+.box-a .row {
+  margin-top: 20px;
 
+}
 .box-a img {
   width: 533px;
   height: 300px;
@@ -97,11 +108,12 @@ line-height: normal;
   // padding: 32px 0px;
 }
 .column-u h4 {
+  padding-left: 25px;
   width: 422.4px;
   height: 25px;
   top: 207px;
   left: 32px;
-  font-weight: 500px;
+  font-weight: 700px;
   font-size: 20px;
   line-height: 25px;
   color: #FBFBF4;
@@ -126,6 +138,7 @@ line-height: normal;
 }
 
 .column-u p {
+  padding-left: 25px;
   width: 469px;
   height: 40px;
   top: 240px;
