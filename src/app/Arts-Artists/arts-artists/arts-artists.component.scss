@@ -1,0 +1,97 @@
+.row-k {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.row-k-div h3 {
+    margin-left: 80px;
+    color: #141414;
+    /* Title */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    /* H3/medium */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.row-k-bt {
+    margin-right: 90px;
+    color: #DE177C;
+    /* Button/medium */
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    word-wrap: break-word;
+    border: none;
+    width: 104px;
+    height: 33px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px #DE177C solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+// .row-k-bt :hover {
+//   border: #DE177C;
+// }
+.img-k {
+    padding-top: 5px;
+    width: 310px;
+    height: 401px;
+    border-radius: 24px;
+    object-fit: cover;
+    // margin-top: 50px;
+    margin-left: 15%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(7, 7, 7, 0.02) 74.31%, rgba(7, 7, 7, 0.37) 87.83%);
+}
+
+.colmun-k h4 {
+    position: absolute;
+    bottom: 35px;
+    color: #FBFBF4;
+    /* Body/regular */
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    padding-left: 100px
+}
+
+// .colmun-k {
+//   // width: 100%;
+// }
+.colmun-k p {
+    position: absolute;
+    bottom: 4px;
+    padding-left: 100px;
+    color: #FBFBF4;
+    /* Body/regular */
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.pargraph {
+    width: 1084px;
+    color: var(--black-100, #141414);
+    /* Body/regular */
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 80px;
+}
