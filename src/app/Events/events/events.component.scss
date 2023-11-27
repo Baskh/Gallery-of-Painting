@@ -1,13 +1,13 @@
-.row-card {
-  width: 1090px;
-  height: 390px;
-}
+// .row-card {
+//   width: 1090px;
+//   height: 390px;
+// }
 .card-mid {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    // margin-left: 150px;
+    // margin-right: 150px;
     margin-top: 30px;
     border-radius: 24px;
     border: 1px solid var(--Gray-Light, #C8C8C8);
@@ -23,6 +23,7 @@
 }
 
 .col-md-4 {
+  height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +121,7 @@
 }
 
 .row-oneimg-img {
-  margin-left: 220px;
+  // margin-left: 220px;
   width: 1090px;
   height: 390px;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 25.25);
@@ -132,7 +133,7 @@
 }
 
 .image-overlay {
-  margin-left: 225px;
+  // margin-left: 225px;
   position: absolute;
   bottom: 0;
   left: 0;
