@@ -1,9 +1,45 @@
 <div class="sticky-top">
   <div class="header">
-    <div class="logo log-v">Art Centred</div>
-    <div class="signin">Sign in</div>
-    <div class="search">Search</div>
-    <div class="menu">
+    <!-- <div class="logo log-v">Art Centred</div> -->
+    <!-- <div class="signin"> -->
+      <button
+      type="button"
+      class="btn btn-primary"
+       data-bs-toggle="modal"
+      data-bs-target="#Signin"> SIGN IN
+    </button>
+    <!-- </div> -->
+      <div id="Signin" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal">
+              </button>
+              <div class="myform bg-dark">
+                <h1 class="text-center">Form</h1>
+                <form action="#">
+                  <div class="mb-3 mt-3">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control">
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <label for="email">Password</label>
+                    <input type="password" class="form-control">
+                  </div>
+                  <button type="button" class="btn btn-light mt-3">LOGIN
+                  </button>
+                  <p>Not a number <a href="#">Signup</a></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- <div class="search">Search</div> -->
+    <!-- <div class="menu">
       <div class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
         <g clip-path="url(#clip0_346_16)">
           <path d="M20 1.66675C9.87449 1.66675 1.66666 9.87458 1.66666 20.0001C1.66666 30.1256 9.87449 38.3334 20 38.3334C30.1255 38.3334 38.3333 30.1256 38.3333 20.0001C38.3333 9.87458 30.1255 1.66675 20 1.66675Z" fill="#FBFBF4" fill-opacity="0.25" stroke="#FBFBF4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -22,8 +58,8 @@
         <path d="M15.3891 23.885L15.0356 24.2385L15.3891 23.885C15.2272 23.723 15.1362 23.5033 15.1362 23.2743C15.1362 23.0452 15.2272 22.8256 15.3891 22.6636C15.5511 22.5016 15.7708 22.4106 15.9998 22.4106C16.2289 22.4106 16.4485 22.5016 16.6105 22.6636C16.7725 22.8256 16.8634 23.0452 16.8634 23.2743C16.8634 23.5033 16.7725 23.723 16.6105 23.885C16.4485 24.0469 16.2289 24.1379 15.9998 24.1379C15.7708 24.1379 15.5511 24.0469 15.3891 23.885Z" fill="#FBFBF4" stroke="#FBFBF4"/>
       </svg></div>
       <div class="menu-line"></div>
-    </div>
-  </div>
+    </div> -->
+
 </div>
 <div style="padding-left: 220px; padding-right: 220px">
   <nav class="navbar navbar-expand-lg">
