@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//  import Swiper from 'swiper'.;
+// import 'swiper/swiper-bundle.min.css';
 
 @Component({
   selector: 'app-all-components',

@@ -11,7 +11,6 @@ import { AboutUsComponent } from './AboutUs/about-us/about-us.component';
 import { CoursolComponent } from './coursole/coursol/coursol.component';
 import { AllComponentsComponent } from './allComponents/all-components/all-components.component';
 
-// import { SwiperModule } from 'swiper/angular';
 
 // import { SwiperModule } from 'swiper/angular';
 // import { HttpClientModule } from '@angular/common/http';
@@ -32,7 +31,6 @@ import { AllComponentsComponent } from './allComponents/all-components/all-compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // SwiperModule
     // HttpClientModule,
     // AngularSvgIconModule
   ],
