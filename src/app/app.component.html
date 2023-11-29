@@ -1,6 +1,6 @@
-<div>
+<div class="ss">
   <div class="header">
-    
+
     <!-- <div class="logo log-v">Art Centred</div> -->
     <!-- <div class="signin"> -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Signin"> SIGN IN
@@ -12,18 +12,20 @@
           <div class="modal-body">
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal">
             </button>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card card-sign">
               <div class="row g-0">
-                <div class="col-md-6">
+                <div class="col-md-6  d-flex flex-column ">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Sign in :</h5>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <img src="..//assets/Photos/masthead-exhibitions-exported.jpg" class="img-fluid rounded-start">
+                  <img src="..//assets/Photos/IMG_5171.jpeg" class="img img-sign rounded-start">
                 </div>
               </div>
             </div>
@@ -88,14 +90,20 @@
       <div class="logo-container">
         <div class="logo">
           <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
-            <path d="M28.0148 2.01571C24.5488 0.285091 20.6606 -0.351902 16.8418 0.18528C13.0231 0.722462 9.44534 2.40969 6.56099 5.03362C3.67663 7.65754 1.61523 11.1003 0.637463 14.9265C-0.340306 18.7528 -0.190529 22.7906 1.06785 26.5295C2.32624 30.2684 4.63671 33.5404 7.70709 35.9317C10.7775 38.3229 14.4699 39.7262 18.3174 39.9639C22.1648 40.2016 25.9946 39.263 29.3223 37.267C32.6501 35.271 35.3263 32.3071 37.0127 28.7502L35.6874 28.0884C34.1286 31.3764 31.6547 34.1161 28.5786 35.9612C25.5026 37.8063 21.9624 38.6738 18.4059 38.4541C14.8494 38.2343 11.4363 36.9373 8.59807 34.7268C5.75989 32.5164 3.62415 29.4918 2.46093 26.0357C1.29772 22.5796 1.15927 18.8471 2.06309 15.3102C2.96692 11.7733 4.87242 8.59095 7.53864 6.16547C10.2049 3.73999 13.5121 2.18035 17.042 1.6838C20.5719 1.18724 24.1661 1.77606 27.3699 3.37579L28.0148 2.01571Z" fill="#FBFBF4"/>
-            <path d="M5.88378 27.8638C6.84391 28.2689 25.7989 21.761 28.8991 18.075L28.3919 16.3171C17.9585 19.0155 12.05 23.5029 5.04137 27.4333L5.88378 27.8638ZM30.1194 17.627C35.6694 18.1745 34.7698 14.4468 40.2729 15.041C35.5127 11.1922 32.4877 13.3605 29.6162 15.8604L30.1194 17.627Z" fill="#FBFBF4"/>
-            <path d="M5.73193 40.2349L18.5547 6.78807C18.8829 5.93204 20.094 5.93204 20.4222 6.78807L33.245 40.2349" stroke="#FBFBF4" stroke-linecap="round"/>
-            <ellipse cx="12.1249" cy="6.56105" rx="1.80755" ry="1.855" fill="#FBFBF4"/>
-            <ellipse cx="7.53948" cy="10.0904" rx="1.80755" ry="1.855" fill="#FBFBF4"/>
-            <ellipse cx="4.67352" cy="14.7964" rx="1.80755" ry="1.855" fill="#FBFBF4"/>
-            <ellipse cx="4.10028" cy="20.0904" rx="1.80755" ry="1.855" fill="#FBFBF4"/>
-          </svg>Art Centred</div>
+            <path
+              d="M28.0148 2.01571C24.5488 0.285091 20.6606 -0.351902 16.8418 0.18528C13.0231 0.722462 9.44534 2.40969 6.56099 5.03362C3.67663 7.65754 1.61523 11.1003 0.637463 14.9265C-0.340306 18.7528 -0.190529 22.7906 1.06785 26.5295C2.32624 30.2684 4.63671 33.5404 7.70709 35.9317C10.7775 38.3229 14.4699 39.7262 18.3174 39.9639C22.1648 40.2016 25.9946 39.263 29.3223 37.267C32.6501 35.271 35.3263 32.3071 37.0127 28.7502L35.6874 28.0884C34.1286 31.3764 31.6547 34.1161 28.5786 35.9612C25.5026 37.8063 21.9624 38.6738 18.4059 38.4541C14.8494 38.2343 11.4363 36.9373 8.59807 34.7268C5.75989 32.5164 3.62415 29.4918 2.46093 26.0357C1.29772 22.5796 1.15927 18.8471 2.06309 15.3102C2.96692 11.7733 4.87242 8.59095 7.53864 6.16547C10.2049 3.73999 13.5121 2.18035 17.042 1.6838C20.5719 1.18724 24.1661 1.77606 27.3699 3.37579L28.0148 2.01571Z"
+              fill="#FBFBF4" />
+            <path
+              d="M5.88378 27.8638C6.84391 28.2689 25.7989 21.761 28.8991 18.075L28.3919 16.3171C17.9585 19.0155 12.05 23.5029 5.04137 27.4333L5.88378 27.8638ZM30.1194 17.627C35.6694 18.1745 34.7698 14.4468 40.2729 15.041C35.5127 11.1922 32.4877 13.3605 29.6162 15.8604L30.1194 17.627Z"
+              fill="#FBFBF4" />
+            <path d="M5.73193 40.2349L18.5547 6.78807C18.8829 5.93204 20.094 5.93204 20.4222 6.78807L33.245 40.2349"
+              stroke="#FBFBF4" stroke-linecap="round" />
+            <ellipse cx="12.1249" cy="6.56105" rx="1.80755" ry="1.855" fill="#FBFBF4" />
+            <ellipse cx="7.53948" cy="10.0904" rx="1.80755" ry="1.855" fill="#FBFBF4" />
+            <ellipse cx="4.67352" cy="14.7964" rx="1.80755" ry="1.855" fill="#FBFBF4" />
+            <ellipse cx="4.10028" cy="20.0904" rx="1.80755" ry="1.855" fill="#FBFBF4" />
+          </svg>Art Centred
+        </div>
         <!-- <div class="logo-icon">
           <div class="logo-text">AC</div>
         </div> -->
