@@ -172,9 +172,9 @@
 .modal-body {
   padding: 0px;
 }
-.modal-dialog {
-  right: 250px;
-}
+// .modal-dialog {
+//   right: 250px;
+// }
 .myform {
   padding: 0px;
 }
@@ -184,7 +184,7 @@
   padding: 1em;
 }
 .modal-content {
-  width: 80%;
+  width:600px;
   margin: 0px auto;
 }
 h1 {
@@ -231,7 +231,6 @@ h1 {
  }
  .card-sign {
   display: flex;
-  width: 380px;
   height: 476px;
   padding: 40px;
   flex-direction: column;
@@ -239,6 +238,8 @@ h1 {
   align-items: center;
  }
  .img-sign {
+  width: 397px;
+  object-fit:cover;
   display: inline-flex;
   height: 476px;
   padding-right: 0px;

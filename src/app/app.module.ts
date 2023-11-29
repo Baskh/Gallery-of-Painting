@@ -10,6 +10,7 @@ import { EducationsComponent } from './Educations/educations/educations.componen
 import { AboutUsComponent } from './AboutUs/about-us/about-us.component';
 import { CoursolComponent } from './coursole/coursol/coursol.component';
 import { AllComponentsComponent } from './allComponents/all-components/all-components.component';
+import { CoursesComponent } from './Educations/educations/courses/courses.component';
 
 
 // import { SwiperModule } from 'swiper/angular';
@@ -25,7 +26,8 @@ import { AllComponentsComponent } from './allComponents/all-components/all-compo
     EducationsComponent,
     AboutUsComponent,
     CoursolComponent,
-    AllComponentsComponent
+    AllComponentsComponent,
+    CoursesComponent
 
   ],
   imports: [

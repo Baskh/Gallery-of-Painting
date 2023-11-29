@@ -1,0 +1,51 @@
+.img-right h1 {
+    color: var(--Mexican-Pink, #DE177C);
+
+    /* H2/medium */
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-text h3 {
+    color: var(--black-50, var(--Black-50, #1C1C1C));
+
+    /* H2/medium */
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-text h5 {
+    color: var(--black-50, var(--Black-50, #1C1C1C));
+
+    /* H3/medium */
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-text p {
+    color: var(--black-50, var(--Black-50, #1C1C1C));
+
+    /* Body/regular */
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kid-img {
+    width: 529px;
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 0px 24px 24px 0px;
+    background: lightgray 50% / cover no-repeat;
+}
