@@ -1,86 +1,132 @@
 <div style="padding-left: 220px; padding-right: 220px;">
-    <div class="img-right">
-        <div class="d-flex">
-            <img *ngIf="step==1" src="../../../../assets/Photos/Group 22.svg">
-            <img *ngIf="step>1" src="../../../../assets/Photos/Group 35.svg">
+  <div class="img-right">
+    <div class="d-flex">
+      <!-- <img *ngIf="step < 1" src="..//..//..//..//assets/Photos/"> -->
+      <img *ngIf="step==1" src="../../../../assets/Photos/Group 22.svg">
+      <img *ngIf="step>1" src="../../../../assets/Photos/Group 37.svg">
 
-            <img src="../../../../assets/Photos/Line 22.svg">
+      <img src="../../../../assets/Photos/Line 22.svg">
 
-            <img *ngIf="step<2" src="../../../../assets/Photos/Group 27.svg">
-            <img *ngIf="step==2" src="../../../../assets/Photos/Group 26.svg">
-            <img *ngIf="step>2" src="../../../../assets/Photos/Group 37.svg">
+      <img *ngIf="step<2" src="../../../../assets/Photos/Group 27.svg">
+      <img *ngIf="step==2" src="../../../../assets/Photos/Group 26.svg">
+      <img *ngIf="step>2" src="../../../../assets/Photos/Group 37.svg">
 
-            <img src="../../../../assets/Photos/Line 22.svg">
+      <img src="../../../../assets/Photos/Line 22.svg">
 
-            <img *ngIf="step<3" src="../../../../assets/Photos/Group 28.svg">
-            <img *ngIf="step==3" src="../../../../assets/Photos/Group 30.svg">
-            <img *ngIf="step>3" src="../../../../assets/Photos/Group 37.svg">
+      <img *ngIf="step<3" src="../../../../assets/Photos/Group 28.svg">
+      <img *ngIf="step==3" src="../../../../assets/Photos/Group 30.svg">
+      <img *ngIf="step>3" src="../../../../assets/Photos/Group 37.svg">
 
-        </div>
-        <div *ngIf="step==1">
-            <h1>Course selection</h1>
-            <div class="d-flex justify-content-between img-text" style="width: 1000px; height: 600px;">
-                <div style="width: 50%;  margin-right : 50px;">
-                    <h3>The improving of painting skills course</h3>
-                    <h5>Kids ( 7 - 11 ) years</h5>
-                    <p>Improve your kids’ skills in painting and light up the passion in them. With this course, your
-                        kids
-                        will
-                        spend their time exploring different worlds of art along with other kids to improve their
-                        communication
-                        and social skills on the way.
-                    </p>
-                    <p> The classes includes 10-12 kid at a time, giving them enough space to express their self's and
-                        ideas.
-                        With the guide of the best teachers we have to ensure that your kids are having the best.
-                    </p>
-                    <p> when enrolling in our course, we providing a full set of art tools for your kids to use so we
-                        can
-                        make
-                        every thing easier and smoother.
-                    </p>
-                    <h5>Course details:</h5>
-                    <p>Duration: 8 weeks
-                        Session days: Monday, Wednesday, Friday
-                        Available times: (12:00-2:00pm), (2:00-4:00pm), (4:00-6:00pm)
-                        Enrollment fae: £300 per kid</p>
-                </div>
-                <div style="width: 50%">
-                    <img src="../..//..//..//assets/Photos/Annotation 2023-11-16 185114.jpg" class="kid-img">
-                </div>
-            </div>
-        </div>
     </div>
-    <div>
+    <div *ngIf="step==1">
+      <h1>Course selection</h1>
+      <div class="d-flex justify-content-between img-text" style="width: 1000px; height: 600px;">
+        <div style="width: 50%;  margin-right : 50px;">
+          <h3>The improving of painting skills course</h3>
+          <h5>Kids ( 7 - 11 ) years</h5>
+          <p>Improve your kids’ skills in painting and light up the passion in them. With this course, your
+            kids
+            will
+            spend their time exploring different worlds of art along with other kids to improve their
+            communication
+            and social skills on the way.
+          </p>
+          <p> The classes includes 10-12 kid at a time, giving them enough space to express their self's and
+            ideas.
+            With the guide of the best teachers we have to ensure that your kids are having the best.
+          </p>
+          <p> when enrolling in our course, we providing a full set of art tools for your kids to use so we
+            can
+            make
+            every thing easier and smoother.
+          </p>
+          <h5>Course details:</h5>
+          <p>Duration: 8 weeks
+            Session days: Monday, Wednesday, Friday
+            Available times: (12:00-2:00pm), (2:00-4:00pm), (4:00-6:00pm)
+            Enrollment fae: £300 per kid</p>
+        </div>
+        <div style="width: 50%">
+          <img src="../..//..//..//assets/Photos/Annotation 2023-11-16 185114.jpg" class="kid-img">
+        </div>
+      </div>
+      <div>
         <div class="row row-k">
-            <div class="row-k-div d-flex justify-content-between">
-                <h3>Photos from our courses:</h3>
-                <button class="row-k-bt">View more</button>
-            </div>
-            <div class="d-flex justify-content-between">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="..//..//..//..//assets/Photos/IMG_1115.jpeg" class="kids">
-                    </div>
-                    <div class="col-4" style="padding-left: 144px;">
-                        <img src="..//..//..//..//assets/Photos/download.jfif" class="colors">
-                        <div class="d-flex justify-content-between" style="margin-top: 24px;">
-                            <img src="..//..//..//..//assets/Photos/rm176-e61eea6b-a5a1-425f-a6e6-90d0842462d9-v2.jpg"
-                                class="kids2">
-                            <img src="..//..//..//..//assets/Photos/draw.jpg" class="draw">
-                        </div>
-
-                    </div>
-                    <div class="col-4" style="padding-left: 291px; margin-top: 24px;">
-                        <img src="..//..//..//..//assets/Photos/71Wl7JioHOS.jpg" class="chairs">
-                        <img src="..//..//..//..//assets/Photos/How-to-Use-Oil-Pastels-768x512.jpg" class="oil-pastels">
-                    </div>
+          <div class="row-k-div d-flex justify-content-between">
+            <h3>Photos from our courses:</h3>
+            <button class="row-k-bt">View more</button>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="row">
+              <div class="col-4">
+                <img src="..//..//..//..//assets/Photos/IMG_1115.jpeg" class="kids">
+              </div>
+              <div class="col-4" style="padding-left: 144px;">
+                <img src="..//..//..//..//assets/Photos/download.jfif" class="colors">
+                <div class="d-flex justify-content-between" style="margin-top: 24px;">
+                  <img src="..//..//..//..//assets/Photos/rm176-e61eea6b-a5a1-425f-a6e6-90d0842462d9-v2.jpg"
+                    class="kids2">
+                  <img src="..//..//..//..//assets/Photos/draw.jpg" class="draw">
                 </div>
+
+              </div>
+              <div class="col-4" style="padding-left: 291px; margin-top: 24px;">
+                <img src="..//..//..//..//assets/Photos/71Wl7JioHOS.jpg" class="chairs">
+                <img src="..//..//..//..//assets/Photos/How-to-Use-Oil-Pastels-768x512.jpg" class="oil-pastels">
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="d-flex justify-content-between" style="margin-top: 30px;">
-        <button class="back"><i class="bi bi-arrow-left"></i>Back</button>
-        <button class="continue" (click)="next()">Continue</button>
+  </div>
+  <div class="d-flex justify-content-between" *ngIf="step==2">
+    <div class="card" style="width: 470px;  height: 583px;">
+      <div class="container">
+        <form class="form-signup">
+          <h2>Your infornmation :</h2>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-4 " style="padding-top: 10px">
+                <input type="text" class="First" name="firstname" placeholder="First Name">
+              </div>
+              <div class="col-md-4 " style="padding-left: 93px; padding-top: 10px">
+                <input type="text" class="First" name="lastname" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+          <div class="form-group" style="padding-top: 10px">
+            <input type="email" class="Email" name="email" placeholder="Email Address">
+            <p class="Pargraph">confirm email goes to this address</p>
+          </div>
+          <div class="form-group" style="padding-top: 10px">
+            <input type="text" class="phone" name="phonenumber" placeholder="Phone Number">
+            <p class="Pargraph">needed by the gallery to contact you in case of emergence</p>
+          </div>
+          <div class="form-group" style="padding-top: 10px">
+            <input type="text" class="Address" name="adress" placeholder="Address">
+          </div>
+          <div class="form-group" style="padding-top: 10px">
+            <input type="text" name="creditcardbrand" placeholder="Credit Card Brand">
+          </div>
+          <div class="form-group" style="padding-top: 10px">
+            <input type="text" name="creditcardnumber" placeholder="Credit Card Number">
+          </div>
+          <div class="row">
+            <div class="col-md-6" style="padding-top: 10px">
+              <input type="text" name="carddate" placeholder="Card date">
+            </div>
+            <div class="col-md-6" style="padding-top: 10px">
+              <input type="text" name="cv" placeholder="CV">
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
+
+  <div class="d-flex justify-content-between" style="margin-top: 30px;">
+    <button class="back" (click)="prev()"><i class="bi bi-arrow-left"></i>Back</button>
+    <button class="continue" (click)="next()">Continue</button>
+  </div>
 </div>
