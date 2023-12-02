@@ -1,4 +1,5 @@
-.img-right h1 {
+.img-right h1,
+h1 {
   color: var(--Mexican-Pink, #DE177C);
 
   /* H2/medium */
@@ -181,10 +182,10 @@
   border: 1px solid var(--Mexican-Pink, #DE177C);
 }
 
-.form-signup {
-  margin: 0 auto;
-  // max-width: 400px;
-}
+// .form-signup {
+//   // margin: 0 auto;
+//   // max-width: 400px;
+// }
 
 .card {
   width: 470px;
@@ -234,24 +235,13 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-left: 20px;
+  padding-left: 9px;
+  word-wrap: break-word
 }
 
-.phone {
+.Date {
   display: flex;
-  width: 422px;
-  height: 34px;
-  padding: 10px 21px;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  border: 1px solid var(--Gray-Light, #C8C8C8);
-}
-
-.Address {
-  display: flex;
-  width: 422px;
+  width: 199px;
   height: 34px;
   padding: 10px 21px;
   align-items: center;
