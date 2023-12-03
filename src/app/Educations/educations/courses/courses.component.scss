@@ -97,49 +97,42 @@ h1 {
 }
 
 .kids {
-  width: 421px;
-  height: 422px;
-  flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
+  width: 100%;
   object-fit: cover;
 }
 
 .colors {
-  width: 422px;
-  height: 199px;
+  width: 100%;
   flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
   object-fit: cover;
 }
 
 .kids2 {
-  width: 199px;
-  height: 199px;
+  width: 100%;
   flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
+  object-fit: cover;
+
 }
 
 .draw {
-  width: 199px;
-  height: 199px;
+  width: 100%;
   flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
-  margin-left: 24px;
+  object-fit: cover;
+
 }
 
 
 .chairs {
-  width: 199px;
-  height: 199px;
+  object-fit: cover;
+  width: 100%;
   flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
 }
 
 .oil-pastels {
-  width: 199px;
-  height: 199px;
+  width: 100%;
   flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
+  object-fit: cover;
+
 }
 
 .back {
