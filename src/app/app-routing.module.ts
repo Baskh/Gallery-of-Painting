@@ -7,6 +7,7 @@ import { EducationsComponent } from './Educations/educations/educations.componen
 import { ArtsArtistsComponent } from './Arts-Artists/arts-artists/arts-artists.component';
 import { AboutUsComponent } from './AboutUs/about-us/about-us.component';
 import { AllComponentsComponent } from './allComponents/all-components/all-components.component';
+import { CoursesComponent } from './Educations/educations/courses/courses.component';
 
 const routes: Routes = [
   { path: '', component:AllComponentsComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path:'events', component:EventsComponent},
   { path:'educations', component:EducationsComponent},
   { path:'artsartists', component:ArtsArtistsComponent},
-  { path:'aboutus', component :AboutUsComponent}
+  { path:'aboutus', component :AboutUsComponent},
+  { path:'courses', component:CoursesComponent}
 ];
 
 @NgModule({

@@ -236,13 +236,13 @@ line-height: normal;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
-  padding-left: 112px
+  padding-left: 20px
 }
 
 .colmun-k p {
   position: absolute;
   bottom: 4px;
-  padding-left: 112px;
+  padding-left: 20px;
   color: #FBFBF4;
   /* Body/regular */
   font-family: Lexend;
@@ -250,4 +250,8 @@ line-height: normal;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.btn-card {
+  display: flex;
+  justify-content: end;
 }
