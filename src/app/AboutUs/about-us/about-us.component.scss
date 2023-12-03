@@ -29,6 +29,55 @@ h1 {
   line-height: normal;
 }
 
+.card-women {
+  width: 644px;
+  height: 319px;
+  border-radius: 24px;
+  border: 1px solid var(--Gray-Light, #C8C8C8);
+  background: var(--white, #FBFBF4);
+
+  /* card */
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-text {
+  color: var(--black-50, var(--Black-50, #1C1C1C));
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.p-text {
+  color: var(--black-50, var(--Black-50, #1C1C1C));
+
+  /* Body/regular */
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.row-learn-bt {
+  color: var(--Mexican-Pink, #DE177C);
+
+  /* Button/medium */
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 10px 4px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--Mexican-Pink, #DE177C);
+}
+
 .card-w {
   position: relative;
   width: 422px;
