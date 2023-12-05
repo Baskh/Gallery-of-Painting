@@ -129,7 +129,7 @@
   overflow: hidden;
   border: 1px #C8C8C8 solid;
   object-fit: cover;
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 
 .image-overlay {
@@ -140,14 +140,14 @@
   right: 0;
   padding: 20px 40px 50px 39px;
   color: white;
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 
 .image-overlay h4,
 .image-overlay p {
   margin: 0;
   font-family: "Lexend";
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 
 .row-oneimg p {
@@ -156,5 +156,5 @@
   color: rgba(251, 251, 244, 1);
   width: 838px;
   word-wrap: break-word;
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }

@@ -29,6 +29,22 @@ h1 {
   line-height: normal;
 }
 
+.jobs {
+  padding-left: 250px;
+  padding-bottom: 24px;
+  color: var(--black-100, #141414);
+  padding-top: 50px;
+  /* Title */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+  /* H3/medium */
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .card-women {
   width: 644px;
   height: 319px;
@@ -47,7 +63,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration-line: underline;
+  // text-decoration-line: underline;
 }
 
 .p-text {
@@ -80,24 +96,27 @@ h1 {
 
 .card-w {
   position: relative;
-  width: 422px;
-  height: 260px;
+  width: 533px;
+  height: 437px;
   border-radius: 24px;
-  background: #FBFBF4;
+  border: 1px solid var(--Gray-Light, #C8C8C8);
+  // background: #FBFBF4;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .card-body h5 {
-  color: var(--Brunswick-green, #29524A);
+  color: #000;
   /* H3/medium */
   font-family: Lexend;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
+  ;
   line-height: normal;
 }
 
 .card-body p {
-  color: #1C1C1C;
+  color: #000;
 
   /* Body/regular */
   font-family: Lexend;
@@ -108,18 +127,15 @@ h1 {
 }
 
 .card-w .card-img-top {
-  width: 422px;
-  height: 260px;
+  width: 531px;
+  height: 299px;
   border-radius: 24px 24px 0px 0px;
   border: 1px;
   object-fit: cover;
+
 }
 
-// .row-card-img {
-//   // padding-top: 30px;
-//   margin-left: 300px;
 
-// }
 .row-card-img h3 {
   color: var(--black-100, #141414);
   /* Title */
@@ -132,7 +148,6 @@ h1 {
   line-height: normal;
   padding-bottom: 25px;
   // margin-left: 300px;
-
 }
 
 .btn {
@@ -159,9 +174,9 @@ h1 {
   border: 1px solid var(--Mexican-Pink, #DE177C);
 }
 
-.card-w .card-img-top-two {
-  right: 350px;
-}
+// .card-w .card-img-top-two {
+//   right: 350px;
+// }
 
 .row-k-bt {
   margin-right: 45px;
@@ -189,10 +204,18 @@ h1 {
 }
 
 .card-group {
+  background: var(--white, #FBFBF4);
   width: 199px;
   height: 286px;
   flex-shrink: 0;
   border-radius: 24px;
   border: 1px solid var(--Gray-Light, #C8C8C8);
   background: var(--white, #FBFBF4);
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.card-card {
+  padding-left: 250px;
+  padding-right: 350px;
 }

@@ -8,6 +8,8 @@ import { ArtsArtistsComponent } from './Arts-Artists/arts-artists/arts-artists.c
 import { AboutUsComponent } from './AboutUs/about-us/about-us.component';
 import { AllComponentsComponent } from './allComponents/all-components/all-components.component';
 import { CoursesComponent } from './Educations/educations/courses/courses.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-up/sign-in/sign-in.component';
 
 const routes: Routes = [
   { path: '', component:AllComponentsComponent },
@@ -16,7 +18,9 @@ const routes: Routes = [
   { path:'educations', component:EducationsComponent},
   { path:'artsartists', component:ArtsArtistsComponent},
   { path:'aboutus', component :AboutUsComponent},
-  { path:'courses', component:CoursesComponent}
+  { path:'courses', component:CoursesComponent},
+   { path:'signup', component:SignUpComponent},
+   {path:'signin', component:SignInComponent}
 ];
 
 @NgModule({

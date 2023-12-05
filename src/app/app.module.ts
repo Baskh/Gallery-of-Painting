@@ -11,6 +11,9 @@ import { AboutUsComponent } from './AboutUs/about-us/about-us.component';
 import { CoursolComponent } from './coursole/coursol/coursol.component';
 import { AllComponentsComponent } from './allComponents/all-components/all-components.component';
 import { CoursesComponent } from './Educations/educations/courses/courses.component';
+// import { SignupComponent } from './signup/signup.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-up/sign-in/sign-in.component';
 
 
 // import { SwiperModule } from 'swiper/angular';
@@ -27,7 +30,10 @@ import { CoursesComponent } from './Educations/educations/courses/courses.compon
     AboutUsComponent,
     CoursolComponent,
     AllComponentsComponent,
-    CoursesComponent
+    CoursesComponent,
+    // SignupComponent,
+    SignUpComponent,
+    SignInComponent
 
   ],
   imports: [

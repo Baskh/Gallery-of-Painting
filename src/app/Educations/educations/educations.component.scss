@@ -45,7 +45,7 @@
   overflow: hidden;
   border: 1px #C8C8C8 solid;
   object-fit: cover;
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 
 .image-overlay {
@@ -56,7 +56,7 @@
   right: 0;
   padding: 20px 40px 50px 39px;
   color: white;
-  background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
+  // background: var(--Liner-shade, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 38.54%, rgba(7, 7, 7, 0.06) 60.82%, rgba(7, 7, 7, 0.45) 74.04%));
 }
 
 .image-overlay h4,
@@ -93,12 +93,18 @@ line-height: normal;
 }
 .card-w {
   position: relative;
-  width: 422px;
-  height: 260px;
+  width: 533px;
+  height: 437pxpx;
   border-radius: 24px;
   background: #FBFBF4;
-}
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
+// .card-text {
+//   width: 1087px;
+//     height: 62px;
+//     padding-left: 270px
+// }
 .card-body h5 {
   color: var(--Brunswick-green, #29524A);
   /* H3/medium */
@@ -121,8 +127,8 @@ line-height: normal;
 }
 
 .card-w .card-img-top {
-  width: 422px;
-  height: 260px;
+  width: 532px;
+  height: 259px;
   border-radius: 24px 24px 0px 0px;
   border: 1px;
   object-fit: cover;
@@ -205,8 +211,12 @@ line-height: normal;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 57px;
-  margin-top: 20px;
+  // padding-left: 57px;
+  // margin-top: 20px;
+  width: 1087px;
+  height: 62px;
+  padding-left: 270px;
+  padding-top: 15px;
 }
 .row-k {
   width: 100%;
@@ -223,9 +233,12 @@ line-height: normal;
   // margin-left: 15%;
   position: relative;
   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(7, 7, 7, 0.02) 74.31%, rgba(7, 7, 7, 0.37) 87.83%)  lightgray 50%;
+  // background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(7, 7, 7, 0.02) 74.31%, rgba(7, 7, 7, 0.37) 87.83%)  lightgray 50%;
 }
-
+.tow-images {
+  justify-content: flex-start;
+  margin-top: -2%;
+}
 .colmun-k h4 {
   position: absolute;
   bottom: 35px;
